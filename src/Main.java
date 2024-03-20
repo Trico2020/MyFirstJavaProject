@@ -10,7 +10,7 @@ public class Main {
                 + " la cantidad de alumnos mayores de 18 años y la cantidad de alumnos que miden mas de 1,75");
 
         int Age,ContA=0,ContH=0,PromA=0,MediaA=0;
-        double height=0,PromH=0,MediaH=0;
+        double height,PromH=0,MediaH=0;
 
         for(int i=1; i<6; i++){
             Age=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese edad del malcriado: "));
